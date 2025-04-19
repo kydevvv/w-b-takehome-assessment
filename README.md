@@ -14,7 +14,7 @@
   Resources:
   - [terraform-google-wandb](https://github.com/wandb/terraform-google-wandb)
   - [Operator](https://docs.wandb.ai/guides/hosting/operator/)
-  - [Official Docs] (https://docs.wandb.ai/guides/hosting/)
+  - [Official Docs](https://docs.wandb.ai/guides/hosting/)
   
 
   HELPFUL TIPS 
