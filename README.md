@@ -1,4 +1,5 @@
   **Take home for Solutions Architect - Kelvin Yang**
+  
   OVERVIEW 
   - The resources provided in this repo will set up all the infra components required in Google Cloud Platform (GCP) and the W&B operator      to deploy your self-managed W&B server.
   - This repo contains the artifacts required for the SA assessment, including:
