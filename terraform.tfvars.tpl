@@ -1,0 +1,7 @@
+project_id  = "${PROJECT_ID}"
+region      = "${REGION}"
+zone        = "${ZONE}"
+namespace   = "${NAMESPACE}"
+license     = "${LICENSE}"
+subdomain   = "${SUBDOMAIN}"
+domain_name = "${DOMAIN_NAME}"

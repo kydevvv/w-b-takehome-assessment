@@ -1,0 +1,37 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Terraform
+.terraform/                      # local Terraform modules & plugins
+*.tfstate                        # local state file
+*.tfstate.backup                 # backup of state
+*.tfvars                         # CLI vars (often contain secrets)
+*.tfvars.json                    # JSON var files
+*.tfplan                         # plan output
+override.tf                      # override files
+override.tf.json
+crash.log                        # crash logs
+.terraform.lock.hcl              # lockfile (optional—committing it is sometimes desirable)
+
+# Terraform Cloud / Enterprise
+*.tfstate.d/*
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Kubernetes
+*.kubeconfig                     # kubeconfig files, if you happen to drop one
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Environment / Secrets
+.env                              # dotenv files
+*.secret                          # catch‐all for custom secret extensions
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Editor / OS
+.vscode/                          # VS Code workspace settings
+.idea/                            # IntelliJ / WebStorm
+*.swp                             # vim swap
+*~                                # backup files
+.DS_Store                         # macOS Finder
+Thumbs.db                         # Windows Explorer
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Logs
+*.log
